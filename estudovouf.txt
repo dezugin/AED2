@@ -1,0 +1,10 @@
+v ou f ab
+
+i.esq = maior? em arvore binaria de pesquisa
+
+profindidade de um no = distancia do no ate raiz. altura.
+
+
+alvinegra
+
+alvinegra mais eficiente que 2 3 4

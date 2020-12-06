@@ -1,0 +1,12 @@
+a rotacao sempre acontece no avo
+no caso da rotacao dupla, a mais importante eh a segunda rotacao
+na rotacao dupla a primeira rotacao acontece no pai
+na avl o fator sera um atributo calculado na classe no
+no slide da pagina 20 unidade 6c observamos que a rotacao eh simples quando o sinal do no com fator 2 ou menos 2 eh igual ao sinal do seu filho do lado manco
+o no com fator 2 ou -2 sera o avo da rotacao
+os metodos de pesquisar e mostrar sao iguais nas arvores binaria e avl
+os metodos inserir e remover sao praticamente iguais nas arvores binaria e avl a diferenca e q na avl no retorno da recursividade chamamos o metodo de balanceamento
+o metodo de balancear da avl consite na implementacao da tabela disponivel na pagina 20 da unidade 6c
+
+a fragmentacao na descida eh proativa de tal forma que quando a pesquisa chega em um no do tipo 4 esse eh automaticamente fragmentado. Assim, nos nunca teremos 2 nos do tipo 4 consecutivos.
+

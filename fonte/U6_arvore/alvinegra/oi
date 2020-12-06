@@ -1,0 +1,66 @@
+Antes, zero elementos. Agora, raiz(1).
+[ 1(b) ]
+Antes, um elemento. Agora, raiz(1) e dir(2).
+[ 1(b) 2(p) ]
+Antes, dois elementos(C). Agora, raiz(2), esq (1) e dir(3).
+[ 2(b) 1(b) 3(b) ]
+Arvore com tres ou mais elementos...
+[ 2(b) 1(b) 3(b) 4(p) ]
+Arvore com tres ou mais elementos...
+Rotacao ESQ(3)
+Reestabeler cores: avo(4->branco) e avo.esq / avo.dir(3,5-> pretos)
+[ 2(b) 1(b) 4(b) 3(p) 5(p) ]
+Arvore com tres ou mais elementos...
+[ 2(b) 1(b) 4(p) 3(b) 5(b) 6(p) ]
+Arvore com tres ou mais elementos...
+Rotacao ESQ(5)
+Reestabeler cores: avo(6->branco) e avo.esq / avo.dir(5,7-> pretos)
+[ 2(b) 1(b) 4(p) 3(b) 6(b) 5(p) 7(p) ]
+Arvore com tres ou mais elementos...
+Rotacao ESQ(2)
+Reestabeler cores: avo(4->branco) e avo.esq / avo.dir(2,6-> pretos)
+[ 4(b) 2(p) 1(b) 3(b) 6(p) 5(b) 7(b) 8(p) ]
+Arvore com tres ou mais elementos...
+Rotacao ESQ(7)
+Reestabeler cores: avo(8->branco) e avo.esq / avo.dir(7,9-> pretos)
+[ 4(b) 2(b) 1(b) 3(b) 6(b) 5(b) 8(b) 7(p) 9(p) ]
+Arvore com tres ou mais elementos...
+[ 4(b) 2(b) 1(b) 3(b) 6(b) 5(b) 8(p) 7(b) 9(b) 10(p) ]
+Arvore com tres ou mais elementos...
+Rotacao ESQ(9)
+Reestabeler cores: avo(10->branco) e avo.esq / avo.dir(9,11-> pretos)
+[ 4(b) 2(b) 1(b) 3(b) 6(b) 5(b) 8(p) 7(b) 10(b) 9(p) 11(p) ]
+Arvore com tres ou mais elementos...
+Rotacao ESQ(6)
+Reestabeler cores: avo(8->branco) e avo.esq / avo.dir(6,10-> pretos)
+[ 4(b) 2(b) 1(b) 3(b) 8(b) 6(p) 5(b) 7(b) 10(p) 9(b) 11(b) 12(p) ]
+Arvore com tres ou mais elementos...
+Rotacao ESQ(11)
+Reestabeler cores: avo(12->branco) e avo.esq / avo.dir(11,13-> pretos)
+[ 4(b) 2(b) 1(b) 3(b) 8(p) 6(b) 5(b) 7(b) 10(b) 9(b) 12(b) 11(p) 13(p) ]
+Arvore com tres ou mais elementos...
+[ 4(b) 2(b) 1(b) 3(b) 8(p) 6(b) 5(b) 7(b) 10(b) 9(b) 12(p) 11(b) 13(b) 14(p) ]
+Arvore com tres ou mais elementos...
+Rotacao ESQ(13)
+Reestabeler cores: avo(14->branco) e avo.esq / avo.dir(13,15-> pretos)
+[ 4(b) 2(b) 1(b) 3(b) 8(p) 6(b) 5(b) 7(b) 10(b) 9(b) 12(p) 11(b) 14(b) 13(p) 15(p) ]
+Arvore com tres ou mais elementos...
+Rotacao ESQ(10)
+Reestabeler cores: avo(12->branco) e avo.esq / avo.dir(10,14-> pretos)
+[ 4(b) 2(b) 1(b) 3(b) 8(p) 6(b) 5(b) 7(b) 12(b) 10(p) 9(b) 11(b) 14(p) 13(b) 15(b) 16(p) ]
+Arvore com tres ou mais elementos...
+Rotacao ESQ(4)
+Reestabeler cores: avo(8->branco) e avo.esq / avo.dir(4,12-> pretos)
+Rotacao ESQ(15)
+Reestabeler cores: avo(16->branco) e avo.esq / avo.dir(15,17-> pretos)
+[ 8(b) 4(p) 2(b) 1(b) 3(b) 6(b) 5(b) 7(b) 12(p) 10(b) 9(b) 11(b) 14(b) 13(b) 16(b) 15(p) 17(p) ]
+Arvore com tres ou mais elementos...
+[ 8(b) 4(b) 2(b) 1(b) 3(b) 6(b) 5(b) 7(b) 12(b) 10(b) 9(b) 11(b) 14(b) 13(b) 16(p) 15(b) 17(b) 18(p) ]
+Arvore com tres ou mais elementos...
+Rotacao ESQ(17)
+Reestabeler cores: avo(18->branco) e avo.esq / avo.dir(17,19-> pretos)
+[ 8(b) 4(b) 2(b) 1(b) 3(b) 6(b) 5(b) 7(b) 12(b) 10(b) 9(b) 11(b) 14(b) 13(b) 16(p) 15(b) 18(b) 17(p) 19(p) ]
+Arvore com tres ou mais elementos...
+Rotacao ESQ(14)
+Reestabeler cores: avo(16->branco) e avo.esq / avo.dir(14,18-> pretos)
+[ 8(b) 4(b) 2(b) 1(b) 3(b) 6(b) 5(b) 7(b) 12(b) 10(b) 9(b) 11(b) 16(b) 14(p) 13(b) 15(b) 18(p) 17(b) 19(b) 20(p) ]

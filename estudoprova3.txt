@@ -1,0 +1,27 @@
+pesquisa arvore binaria m O1
+pior On
+medio OlgN
+
+insercao aleatoria 1,39 lg N
+
+pesquisa avl pior caso 1,44lgn = Olgn
+fator bal dir - esq
+
+altura 2 3 4 o lg n
+melhor caso o 1
+pior caso e medio o lg n
+comparacao no pior e medio caso e Olgn
+
+
+alvinegra bicolor pesquisa 0lgn comparacoes
+
+
+duvida codigo alvinegra bisavo
+
+arvore trie
+tempo de pesquisa eh O(m) onde m e o tamanho da cadeia a ser procurada
+tempo de insercao e o(m) e construcao total da arvore e o(n), n = |S|, S = cadeias de caracteres
+
+tabela hash
+pesquisa O(1) melhor o(n) pior(lexicografica)
+

@@ -1,0 +1,52 @@
+public int retornaMaior(){
+	int maior = 0;
+	for(int i = 0 ; i < TAM ; i++){
+		if(T1[i]!=null){     		
+			if(T1[i]>maior){
+				maior = t1[i];
+			}
+		}
+	}
+	for(int i = 0;i<3;i++){	
+		(if i==0){
+			int temp = procurarAVL(No raiz,0);	
+			if(temp>maior){
+				maior = temp;
+			}
+		}else if(i==1){		
+			for(int i = 0;i<TAM;i++){
+				if(T3[i]!=null){	
+					if(T3[i]>maior){
+						maior = T3[i];
+					}
+				}
+			}
+		}else if(i==2{
+		for(int i = 0;i<TAM+TAMRESERVA;i++){
+			if(T4[i]!=null){	
+				if(T4[i]>maior){
+					maior = T4[i];
+				}
+			}
+		}
+	return maior;
+}
+public int procurarAVL(No * no,int contador){
+	if(no!=null){
+		if(raiz.elemento>contador){
+			contador = raiz.elemento;
+		}
+		procurarAVL(no->esq);
+		procurarAVL(no->dir);
+	}
+}
+
+O metodo procura em todos os elementos de t1 para ver se o int maior eh maior que ele, se for atribui a maior tal elemento,
+faz um loop para procurar em todas as tabelas contidas na area de reserva, em t2 procura na avl e substitui maior se algum elemento
+for maior, em t3 procura em todos os elementos da tabela, em t4 procura na tabela e na area de reserva de uma vez.
+
+A complexidade no pior caso eh  2TAM+3+NAVL+2TAM+2(TAM+TAMRESERVA), ou seja, O(2TAM), onde tam eh o tamanho das tabelas hash e NAVL
+o numero de elementos na arvore avl.
+
+A complexidade no melhor caso eh 2TAM+3+NAVL, ou seja, O(2TAM), onde tam eh o tamanho das tabelas hash e NAVL o numero de elementos na arvore
+avl.

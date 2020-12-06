@@ -1,0 +1,811 @@
+
+==================================================== INSERINDO : bear
+EM NO( ) i(0) j(0)
+--> criando folha(b/bear)
+==================================================== MOSTRAR: 
+ESTOU EM ( ) E VOU PARA (bear)
+Palavra:  bear
+
+==================================================== INSERINDO : bell
+EM NO( ) i(1) j(0)
+prox(bear) e inserindo(bell)
+k (2)
+no( ) e filhoNOVO(be) neto1(ll) neto2(ar)
+
+==================================================== MOSTRAR: 
+ESTOU EM ( ) E VOU PARA (be)
+ESTOU EM (be) E VOU PARA (ar)
+Palavra:  bear
+ESTOU EM (be) E VOU PARA (ll)
+Palavra:  bell
+
+==================================================== INSERINDO : bid
+EM NO( ) i(2) j(0)
+prox(be) e inserindo(bid)
+k (1)
+no( ) e filhoNOVO(b) neto1(id) neto2(e)
+
+==================================================== MOSTRAR: 
+ESTOU EM ( ) E VOU PARA (b)
+ESTOU EM (b) E VOU PARA (e)
+ESTOU EM (e) E VOU PARA (ar)
+Palavra:  bear
+ESTOU EM (e) E VOU PARA (ll)
+Palavra:  bell
+ESTOU EM (b) E VOU PARA (id)
+Palavra:  bid
+
+==================================================== INSERINDO : bull
+EM NO( ) i(3) j(0)
+prox(b) e inserindo(bull)
+k (1)
+
+EM NO(b) i(3) j(1)
+--> criando folha(u/ull)
+==================================================== MOSTRAR: 
+ESTOU EM ( ) E VOU PARA (b)
+ESTOU EM (b) E VOU PARA (e)
+ESTOU EM (e) E VOU PARA (ar)
+Palavra:  bear
+ESTOU EM (e) E VOU PARA (ll)
+Palavra:  bell
+ESTOU EM (b) E VOU PARA (id)
+Palavra:  bid
+ESTOU EM (b) E VOU PARA (ull)
+Palavra:  bull
+
+==================================================== INSERINDO : buy
+EM NO( ) i(4) j(0)
+prox(b) e inserindo(buy)
+k (1)
+
+EM NO(b) i(4) j(1)
+prox(ull) e inserindo(uy)
+k (1)
+no(b) e filhoNOVO(u) neto1(y) neto2(ll)
+
+==================================================== MOSTRAR: 
+ESTOU EM ( ) E VOU PARA (b)
+ESTOU EM (b) E VOU PARA (e)
+ESTOU EM (e) E VOU PARA (ar)
+Palavra:  bear
+ESTOU EM (e) E VOU PARA (ll)
+Palavra:  bell
+ESTOU EM (b) E VOU PARA (id)
+Palavra:  bid
+ESTOU EM (b) E VOU PARA (u)
+ESTOU EM (u) E VOU PARA (ll)
+Palavra:  bull
+ESTOU EM (u) E VOU PARA (y)
+Palavra:  buy
+
+==================================================== INSERINDO : sell
+EM NO( ) i(5) j(0)
+--> criando folha(s/sell)
+==================================================== MOSTRAR: 
+ESTOU EM ( ) E VOU PARA (b)
+ESTOU EM (b) E VOU PARA (e)
+ESTOU EM (e) E VOU PARA (ar)
+Palavra:  bear
+ESTOU EM (e) E VOU PARA (ll)
+Palavra:  bell
+ESTOU EM (b) E VOU PARA (id)
+Palavra:  bid
+ESTOU EM (b) E VOU PARA (u)
+ESTOU EM (u) E VOU PARA (ll)
+Palavra:  bull
+ESTOU EM (u) E VOU PARA (y)
+Palavra:  buy
+ESTOU EM ( ) E VOU PARA (sell)
+Palavra:  sell
+
+==================================================== INSERINDO : stock
+EM NO( ) i(6) j(0)
+prox(sell) e inserindo(stock)
+k (1)
+no( ) e filhoNOVO(s) neto1(tock) neto2(ell)
+
+==================================================== MOSTRAR: 
+ESTOU EM ( ) E VOU PARA (b)
+ESTOU EM (b) E VOU PARA (e)
+ESTOU EM (e) E VOU PARA (ar)
+Palavra:  bear
+ESTOU EM (e) E VOU PARA (ll)
+Palavra:  bell
+ESTOU EM (b) E VOU PARA (id)
+Palavra:  bid
+ESTOU EM (b) E VOU PARA (u)
+ESTOU EM (u) E VOU PARA (ll)
+Palavra:  bull
+ESTOU EM (u) E VOU PARA (y)
+Palavra:  buy
+ESTOU EM ( ) E VOU PARA (s)
+ESTOU EM (s) E VOU PARA (ell)
+Palavra:  sell
+ESTOU EM (s) E VOU PARA (tock)
+Palavra:  stock
+
+==================================================== INSERINDO : stop
+EM NO( ) i(7) j(0)
+prox(s) e inserindo(stop)
+k (1)
+
+EM NO(s) i(7) j(1)
+prox(tock) e inserindo(top)
+k (2)
+no(s) e filhoNOVO(to) neto1(p) neto2(ck)
+
+==================================================== MOSTRAR: 
+ESTOU EM ( ) E VOU PARA (b)
+ESTOU EM (b) E VOU PARA (e)
+ESTOU EM (e) E VOU PARA (ar)
+Palavra:  bear
+ESTOU EM (e) E VOU PARA (ll)
+Palavra:  bell
+ESTOU EM (b) E VOU PARA (id)
+Palavra:  bid
+ESTOU EM (b) E VOU PARA (u)
+ESTOU EM (u) E VOU PARA (ll)
+Palavra:  bull
+ESTOU EM (u) E VOU PARA (y)
+Palavra:  buy
+ESTOU EM ( ) E VOU PARA (s)
+ESTOU EM (s) E VOU PARA (ell)
+Palavra:  sell
+ESTOU EM (s) E VOU PARA (to)
+ESTOU EM (to) E VOU PARA (ck)
+Palavra:  stock
+ESTOU EM (to) E VOU PARA (p)
+Palavra:  stop
+
+==================================================== INSERINDO : sapo
+EM NO( ) i(8) j(0)
+prox(s) e inserindo(sapo)
+k (1)
+
+EM NO(s) i(8) j(1)
+--> criando folha(a/apo)
+==================================================== MOSTRAR: 
+ESTOU EM ( ) E VOU PARA (b)
+ESTOU EM (b) E VOU PARA (e)
+ESTOU EM (e) E VOU PARA (ar)
+Palavra:  bear
+ESTOU EM (e) E VOU PARA (ll)
+Palavra:  bell
+ESTOU EM (b) E VOU PARA (id)
+Palavra:  bid
+ESTOU EM (b) E VOU PARA (u)
+ESTOU EM (u) E VOU PARA (ll)
+Palavra:  bull
+ESTOU EM (u) E VOU PARA (y)
+Palavra:  buy
+ESTOU EM ( ) E VOU PARA (s)
+ESTOU EM (s) E VOU PARA (apo)
+Palavra:  sapo
+ESTOU EM (s) E VOU PARA (ell)
+Palavra:  sell
+ESTOU EM (s) E VOU PARA (to)
+ESTOU EM (to) E VOU PARA (ck)
+Palavra:  stock
+ESTOU EM (to) E VOU PARA (p)
+Palavra:  stop
+
+==================================================== INSERINDO : sapato
+EM NO( ) i(9) j(0)
+prox(s) e inserindo(sapato)
+k (1)
+
+EM NO(s) i(9) j(1)
+prox(apo) e inserindo(apato)
+k (2)
+no(s) e filhoNOVO(ap) neto1(ato) neto2(o)
+
+==================================================== MOSTRAR: 
+ESTOU EM ( ) E VOU PARA (b)
+ESTOU EM (b) E VOU PARA (e)
+ESTOU EM (e) E VOU PARA (ar)
+Palavra:  bear
+ESTOU EM (e) E VOU PARA (ll)
+Palavra:  bell
+ESTOU EM (b) E VOU PARA (id)
+Palavra:  bid
+ESTOU EM (b) E VOU PARA (u)
+ESTOU EM (u) E VOU PARA (ll)
+Palavra:  bull
+ESTOU EM (u) E VOU PARA (y)
+Palavra:  buy
+ESTOU EM ( ) E VOU PARA (s)
+ESTOU EM (s) E VOU PARA (ap)
+ESTOU EM (ap) E VOU PARA (ato)
+Palavra:  sapato
+ESTOU EM (ap) E VOU PARA (o)
+Palavra:  sapo
+ESTOU EM (s) E VOU PARA (ell)
+Palavra:  sell
+ESTOU EM (s) E VOU PARA (to)
+ESTOU EM (to) E VOU PARA (ck)
+Palavra:  stock
+ESTOU EM (to) E VOU PARA (p)
+Palavra:  stop
+
+==================================================== INSERINDO : ABACAXI
+EM NO( ) i(10) j(0)
+--> criando folha(A/ABACAXI)
+==================================================== MOSTRAR: 
+ESTOU EM ( ) E VOU PARA (ABACAXI)
+Palavra:  ABACAXI
+ESTOU EM ( ) E VOU PARA (b)
+ESTOU EM (b) E VOU PARA (e)
+ESTOU EM (e) E VOU PARA (ar)
+Palavra:  bear
+ESTOU EM (e) E VOU PARA (ll)
+Palavra:  bell
+ESTOU EM (b) E VOU PARA (id)
+Palavra:  bid
+ESTOU EM (b) E VOU PARA (u)
+ESTOU EM (u) E VOU PARA (ll)
+Palavra:  bull
+ESTOU EM (u) E VOU PARA (y)
+Palavra:  buy
+ESTOU EM ( ) E VOU PARA (s)
+ESTOU EM (s) E VOU PARA (ap)
+ESTOU EM (ap) E VOU PARA (ato)
+Palavra:  sapato
+ESTOU EM (ap) E VOU PARA (o)
+Palavra:  sapo
+ESTOU EM (s) E VOU PARA (ell)
+Palavra:  sell
+ESTOU EM (s) E VOU PARA (to)
+ESTOU EM (to) E VOU PARA (ck)
+Palavra:  stock
+ESTOU EM (to) E VOU PARA (p)
+Palavra:  stop
+
+==================================================== INSERINDO : BALA
+EM NO( ) i(11) j(0)
+--> criando folha(B/BALA)
+==================================================== MOSTRAR: 
+ESTOU EM ( ) E VOU PARA (ABACAXI)
+Palavra:  ABACAXI
+ESTOU EM ( ) E VOU PARA (BALA)
+Palavra:  BALA
+ESTOU EM ( ) E VOU PARA (b)
+ESTOU EM (b) E VOU PARA (e)
+ESTOU EM (e) E VOU PARA (ar)
+Palavra:  bear
+ESTOU EM (e) E VOU PARA (ll)
+Palavra:  bell
+ESTOU EM (b) E VOU PARA (id)
+Palavra:  bid
+ESTOU EM (b) E VOU PARA (u)
+ESTOU EM (u) E VOU PARA (ll)
+Palavra:  bull
+ESTOU EM (u) E VOU PARA (y)
+Palavra:  buy
+ESTOU EM ( ) E VOU PARA (s)
+ESTOU EM (s) E VOU PARA (ap)
+ESTOU EM (ap) E VOU PARA (ato)
+Palavra:  sapato
+ESTOU EM (ap) E VOU PARA (o)
+Palavra:  sapo
+ESTOU EM (s) E VOU PARA (ell)
+Palavra:  sell
+ESTOU EM (s) E VOU PARA (to)
+ESTOU EM (to) E VOU PARA (ck)
+Palavra:  stock
+ESTOU EM (to) E VOU PARA (p)
+Palavra:  stop
+
+==================================================== INSERINDO : BOLO
+EM NO( ) i(12) j(0)
+prox(BALA) e inserindo(BOLO)
+k (1)
+no( ) e filhoNOVO(B) neto1(OLO) neto2(ALA)
+
+==================================================== MOSTRAR: 
+ESTOU EM ( ) E VOU PARA (ABACAXI)
+Palavra:  ABACAXI
+ESTOU EM ( ) E VOU PARA (B)
+ESTOU EM (B) E VOU PARA (ALA)
+Palavra:  BALA
+ESTOU EM (B) E VOU PARA (OLO)
+Palavra:  BOLO
+ESTOU EM ( ) E VOU PARA (b)
+ESTOU EM (b) E VOU PARA (e)
+ESTOU EM (e) E VOU PARA (ar)
+Palavra:  bear
+ESTOU EM (e) E VOU PARA (ll)
+Palavra:  bell
+ESTOU EM (b) E VOU PARA (id)
+Palavra:  bid
+ESTOU EM (b) E VOU PARA (u)
+ESTOU EM (u) E VOU PARA (ll)
+Palavra:  bull
+ESTOU EM (u) E VOU PARA (y)
+Palavra:  buy
+ESTOU EM ( ) E VOU PARA (s)
+ESTOU EM (s) E VOU PARA (ap)
+ESTOU EM (ap) E VOU PARA (ato)
+Palavra:  sapato
+ESTOU EM (ap) E VOU PARA (o)
+Palavra:  sapo
+ESTOU EM (s) E VOU PARA (ell)
+Palavra:  sell
+ESTOU EM (s) E VOU PARA (to)
+ESTOU EM (to) E VOU PARA (ck)
+Palavra:  stock
+ESTOU EM (to) E VOU PARA (p)
+Palavra:  stop
+
+==================================================== INSERINDO : ABACATE
+EM NO( ) i(13) j(0)
+prox(ABACAXI) e inserindo(ABACATE)
+k (5)
+no( ) e filhoNOVO(ABACA) neto1(TE) neto2(XI)
+
+==================================================== MOSTRAR: 
+ESTOU EM ( ) E VOU PARA (ABACA)
+ESTOU EM (ABACA) E VOU PARA (TE)
+Palavra:  ABACATE
+ESTOU EM (ABACA) E VOU PARA (XI)
+Palavra:  ABACAXI
+ESTOU EM ( ) E VOU PARA (B)
+ESTOU EM (B) E VOU PARA (ALA)
+Palavra:  BALA
+ESTOU EM (B) E VOU PARA (OLO)
+Palavra:  BOLO
+ESTOU EM ( ) E VOU PARA (b)
+ESTOU EM (b) E VOU PARA (e)
+ESTOU EM (e) E VOU PARA (ar)
+Palavra:  bear
+ESTOU EM (e) E VOU PARA (ll)
+Palavra:  bell
+ESTOU EM (b) E VOU PARA (id)
+Palavra:  bid
+ESTOU EM (b) E VOU PARA (u)
+ESTOU EM (u) E VOU PARA (ll)
+Palavra:  bull
+ESTOU EM (u) E VOU PARA (y)
+Palavra:  buy
+ESTOU EM ( ) E VOU PARA (s)
+ESTOU EM (s) E VOU PARA (ap)
+ESTOU EM (ap) E VOU PARA (ato)
+Palavra:  sapato
+ESTOU EM (ap) E VOU PARA (o)
+Palavra:  sapo
+ESTOU EM (s) E VOU PARA (ell)
+Palavra:  sell
+ESTOU EM (s) E VOU PARA (to)
+ESTOU EM (to) E VOU PARA (ck)
+Palavra:  stock
+ESTOU EM (to) E VOU PARA (p)
+Palavra:  stop
+
+==================================================== INSERINDO : galo
+EM NO( ) i(14) j(0)
+--> criando folha(g/galo)
+==================================================== MOSTRAR: 
+ESTOU EM ( ) E VOU PARA (ABACA)
+ESTOU EM (ABACA) E VOU PARA (TE)
+Palavra:  ABACATE
+ESTOU EM (ABACA) E VOU PARA (XI)
+Palavra:  ABACAXI
+ESTOU EM ( ) E VOU PARA (B)
+ESTOU EM (B) E VOU PARA (ALA)
+Palavra:  BALA
+ESTOU EM (B) E VOU PARA (OLO)
+Palavra:  BOLO
+ESTOU EM ( ) E VOU PARA (b)
+ESTOU EM (b) E VOU PARA (e)
+ESTOU EM (e) E VOU PARA (ar)
+Palavra:  bear
+ESTOU EM (e) E VOU PARA (ll)
+Palavra:  bell
+ESTOU EM (b) E VOU PARA (id)
+Palavra:  bid
+ESTOU EM (b) E VOU PARA (u)
+ESTOU EM (u) E VOU PARA (ll)
+Palavra:  bull
+ESTOU EM (u) E VOU PARA (y)
+Palavra:  buy
+ESTOU EM ( ) E VOU PARA (galo)
+Palavra:  galo
+ESTOU EM ( ) E VOU PARA (s)
+ESTOU EM (s) E VOU PARA (ap)
+ESTOU EM (ap) E VOU PARA (ato)
+Palavra:  sapato
+ESTOU EM (ap) E VOU PARA (o)
+Palavra:  sapo
+ESTOU EM (s) E VOU PARA (ell)
+Palavra:  sell
+ESTOU EM (s) E VOU PARA (to)
+ESTOU EM (to) E VOU PARA (ck)
+Palavra:  stock
+ESTOU EM (to) E VOU PARA (p)
+Palavra:  stop
+
+==================================================== INSERINDO : pata
+EM NO( ) i(15) j(0)
+--> criando folha(p/pata)
+==================================================== MOSTRAR: 
+ESTOU EM ( ) E VOU PARA (ABACA)
+ESTOU EM (ABACA) E VOU PARA (TE)
+Palavra:  ABACATE
+ESTOU EM (ABACA) E VOU PARA (XI)
+Palavra:  ABACAXI
+ESTOU EM ( ) E VOU PARA (B)
+ESTOU EM (B) E VOU PARA (ALA)
+Palavra:  BALA
+ESTOU EM (B) E VOU PARA (OLO)
+Palavra:  BOLO
+ESTOU EM ( ) E VOU PARA (b)
+ESTOU EM (b) E VOU PARA (e)
+ESTOU EM (e) E VOU PARA (ar)
+Palavra:  bear
+ESTOU EM (e) E VOU PARA (ll)
+Palavra:  bell
+ESTOU EM (b) E VOU PARA (id)
+Palavra:  bid
+ESTOU EM (b) E VOU PARA (u)
+ESTOU EM (u) E VOU PARA (ll)
+Palavra:  bull
+ESTOU EM (u) E VOU PARA (y)
+Palavra:  buy
+ESTOU EM ( ) E VOU PARA (galo)
+Palavra:  galo
+ESTOU EM ( ) E VOU PARA (pata)
+Palavra:  pata
+ESTOU EM ( ) E VOU PARA (s)
+ESTOU EM (s) E VOU PARA (ap)
+ESTOU EM (ap) E VOU PARA (ato)
+Palavra:  sapato
+ESTOU EM (ap) E VOU PARA (o)
+Palavra:  sapo
+ESTOU EM (s) E VOU PARA (ell)
+Palavra:  sell
+ESTOU EM (s) E VOU PARA (to)
+ESTOU EM (to) E VOU PARA (ck)
+Palavra:  stock
+ESTOU EM (to) E VOU PARA (p)
+Palavra:  stop
+
+==================================================== INSERINDO : pato
+EM NO( ) i(16) j(0)
+prox(pata) e inserindo(pato)
+k (3)
+no( ) e filhoNOVO(pat) neto1(o) neto2(a)
+
+==================================================== MOSTRAR: 
+ESTOU EM ( ) E VOU PARA (ABACA)
+ESTOU EM (ABACA) E VOU PARA (TE)
+Palavra:  ABACATE
+ESTOU EM (ABACA) E VOU PARA (XI)
+Palavra:  ABACAXI
+ESTOU EM ( ) E VOU PARA (B)
+ESTOU EM (B) E VOU PARA (ALA)
+Palavra:  BALA
+ESTOU EM (B) E VOU PARA (OLO)
+Palavra:  BOLO
+ESTOU EM ( ) E VOU PARA (b)
+ESTOU EM (b) E VOU PARA (e)
+ESTOU EM (e) E VOU PARA (ar)
+Palavra:  bear
+ESTOU EM (e) E VOU PARA (ll)
+Palavra:  bell
+ESTOU EM (b) E VOU PARA (id)
+Palavra:  bid
+ESTOU EM (b) E VOU PARA (u)
+ESTOU EM (u) E VOU PARA (ll)
+Palavra:  bull
+ESTOU EM (u) E VOU PARA (y)
+Palavra:  buy
+ESTOU EM ( ) E VOU PARA (galo)
+Palavra:  galo
+ESTOU EM ( ) E VOU PARA (pat)
+ESTOU EM (pat) E VOU PARA (a)
+Palavra:  pata
+ESTOU EM (pat) E VOU PARA (o)
+Palavra:  pato
+ESTOU EM ( ) E VOU PARA (s)
+ESTOU EM (s) E VOU PARA (ap)
+ESTOU EM (ap) E VOU PARA (ato)
+Palavra:  sapato
+ESTOU EM (ap) E VOU PARA (o)
+Palavra:  sapo
+ESTOU EM (s) E VOU PARA (ell)
+Palavra:  sell
+ESTOU EM (s) E VOU PARA (to)
+ESTOU EM (to) E VOU PARA (ck)
+Palavra:  stock
+ESTOU EM (to) E VOU PARA (p)
+Palavra:  stop
+
+==================================================== INSERINDO : gato
+EM NO( ) i(17) j(0)
+prox(galo) e inserindo(gato)
+k (2)
+no( ) e filhoNOVO(ga) neto1(to) neto2(lo)
+
+==================================================== MOSTRAR: 
+ESTOU EM ( ) E VOU PARA (ABACA)
+ESTOU EM (ABACA) E VOU PARA (TE)
+Palavra:  ABACATE
+ESTOU EM (ABACA) E VOU PARA (XI)
+Palavra:  ABACAXI
+ESTOU EM ( ) E VOU PARA (B)
+ESTOU EM (B) E VOU PARA (ALA)
+Palavra:  BALA
+ESTOU EM (B) E VOU PARA (OLO)
+Palavra:  BOLO
+ESTOU EM ( ) E VOU PARA (b)
+ESTOU EM (b) E VOU PARA (e)
+ESTOU EM (e) E VOU PARA (ar)
+Palavra:  bear
+ESTOU EM (e) E VOU PARA (ll)
+Palavra:  bell
+ESTOU EM (b) E VOU PARA (id)
+Palavra:  bid
+ESTOU EM (b) E VOU PARA (u)
+ESTOU EM (u) E VOU PARA (ll)
+Palavra:  bull
+ESTOU EM (u) E VOU PARA (y)
+Palavra:  buy
+ESTOU EM ( ) E VOU PARA (ga)
+ESTOU EM (ga) E VOU PARA (lo)
+Palavra:  galo
+ESTOU EM (ga) E VOU PARA (to)
+Palavra:  gato
+ESTOU EM ( ) E VOU PARA (pat)
+ESTOU EM (pat) E VOU PARA (a)
+Palavra:  pata
+ESTOU EM (pat) E VOU PARA (o)
+Palavra:  pato
+ESTOU EM ( ) E VOU PARA (s)
+ESTOU EM (s) E VOU PARA (ap)
+ESTOU EM (ap) E VOU PARA (ato)
+Palavra:  sapato
+ESTOU EM (ap) E VOU PARA (o)
+Palavra:  sapo
+ESTOU EM (s) E VOU PARA (ell)
+Palavra:  sell
+ESTOU EM (s) E VOU PARA (to)
+ESTOU EM (to) E VOU PARA (ck)
+Palavra:  stock
+ESTOU EM (to) E VOU PARA (p)
+Palavra:  stop
+
+==================================================== MOSTRAR: 
+ESTOU EM ( ) E VOU PARA (ABACA)
+ESTOU EM (ABACA) E VOU PARA (TE)
+Palavra:  ABACATE
+ESTOU EM (ABACA) E VOU PARA (XI)
+Palavra:  ABACAXI
+ESTOU EM ( ) E VOU PARA (B)
+ESTOU EM (B) E VOU PARA (ALA)
+Palavra:  BALA
+ESTOU EM (B) E VOU PARA (OLO)
+Palavra:  BOLO
+ESTOU EM ( ) E VOU PARA (b)
+ESTOU EM (b) E VOU PARA (e)
+ESTOU EM (e) E VOU PARA (ar)
+Palavra:  bear
+ESTOU EM (e) E VOU PARA (ll)
+Palavra:  bell
+ESTOU EM (b) E VOU PARA (id)
+Palavra:  bid
+ESTOU EM (b) E VOU PARA (u)
+ESTOU EM (u) E VOU PARA (ll)
+Palavra:  bull
+ESTOU EM (u) E VOU PARA (y)
+Palavra:  buy
+ESTOU EM ( ) E VOU PARA (ga)
+ESTOU EM (ga) E VOU PARA (lo)
+Palavra:  galo
+ESTOU EM (ga) E VOU PARA (to)
+Palavra:  gato
+ESTOU EM ( ) E VOU PARA (pat)
+ESTOU EM (pat) E VOU PARA (a)
+Palavra:  pata
+ESTOU EM (pat) E VOU PARA (o)
+Palavra:  pato
+ESTOU EM ( ) E VOU PARA (s)
+ESTOU EM (s) E VOU PARA (ap)
+ESTOU EM (ap) E VOU PARA (ato)
+Palavra:  sapato
+ESTOU EM (ap) E VOU PARA (o)
+Palavra:  sapo
+ESTOU EM (s) E VOU PARA (ell)
+Palavra:  sell
+ESTOU EM (s) E VOU PARA (to)
+ESTOU EM (to) E VOU PARA (ck)
+Palavra:  stock
+ESTOU EM (to) E VOU PARA (p)
+Palavra:  stop
+
+==================================================== PESQUISAR: bear
+EM NO( ) s(bear) cont(0) prox(No@4ccabbaa)
+prox: b
+EM NO(b) s(bear) cont(1) prox(No@4bf558aa)
+prox: e
+EM NO(e) s(bear) cont(2) prox(No@2d38eb89)
+prox: ar
+resp = consumiuTodosOsCaracteresDeProx(true) and proxFolha(true)
+Pesquisar(bear):true
+
+==================================================== PESQUISAR: bell
+EM NO( ) s(bell) cont(0) prox(No@4ccabbaa)
+prox: b
+EM NO(b) s(bell) cont(1) prox(No@4bf558aa)
+prox: e
+EM NO(e) s(bell) cont(2) prox(No@20fa23c1)
+prox: ll
+resp = consumiuTodosOsCaracteresDeProx(true) and proxFolha(true)
+Pesquisar(bell):true
+
+==================================================== PESQUISAR: bid
+EM NO( ) s(bid) cont(0) prox(No@4ccabbaa)
+prox: b
+EM NO(b) s(bid) cont(1) prox(No@3581c5f3)
+prox: id
+resp = consumiuTodosOsCaracteresDeProx(true) and proxFolha(true)
+Pesquisar(bid):true
+
+==================================================== PESQUISAR: bull
+EM NO( ) s(bull) cont(0) prox(No@4ccabbaa)
+prox: b
+EM NO(b) s(bull) cont(1) prox(No@6aa8ceb6)
+prox: u
+EM NO(u) s(bull) cont(2) prox(No@2530c12)
+prox: ll
+resp = consumiuTodosOsCaracteresDeProx(true) and proxFolha(true)
+Pesquisar(bull):true
+
+==================================================== PESQUISAR: buy
+EM NO( ) s(buy) cont(0) prox(No@4ccabbaa)
+prox: b
+EM NO(b) s(buy) cont(1) prox(No@6aa8ceb6)
+prox: u
+EM NO(u) s(buy) cont(2) prox(No@73c6c3b2)
+prox: y
+resp = consumiuTodosOsCaracteresDeProx(true) and proxFolha(true)
+Pesquisar(buy):true
+
+==================================================== PESQUISAR: sell
+EM NO( ) s(sell) cont(0) prox(No@48533e64)
+prox: s
+EM NO(s) s(sell) cont(1) prox(No@64a294a6)
+prox: ell
+resp = consumiuTodosOsCaracteresDeProx(true) and proxFolha(true)
+Pesquisar(sell):true
+
+==================================================== PESQUISAR: stock
+EM NO( ) s(stock) cont(0) prox(No@48533e64)
+prox: s
+EM NO(s) s(stock) cont(1) prox(No@7e0b37bc)
+prox: to
+EM NO(to) s(stock) cont(3) prox(No@3b95a09c)
+prox: ck
+resp = consumiuTodosOsCaracteresDeProx(true) and proxFolha(true)
+Pesquisar(stock):true
+
+==================================================== PESQUISAR: stop
+EM NO( ) s(stop) cont(0) prox(No@48533e64)
+prox: s
+EM NO(s) s(stop) cont(1) prox(No@7e0b37bc)
+prox: to
+EM NO(to) s(stop) cont(3) prox(No@6ae40994)
+prox: p
+resp = consumiuTodosOsCaracteresDeProx(true) and proxFolha(true)
+Pesquisar(stop):true
+
+==================================================== PESQUISAR: sapo
+EM NO( ) s(sapo) cont(0) prox(No@48533e64)
+prox: s
+EM NO(s) s(sapo) cont(1) prox(No@1a93a7ca)
+prox: ap
+EM NO(ap) s(sapo) cont(3) prox(No@3d82c5f3)
+prox: o
+resp = consumiuTodosOsCaracteresDeProx(true) and proxFolha(true)
+Pesquisar(sapo):true
+
+==================================================== PESQUISAR: sapato
+EM NO( ) s(sapato) cont(0) prox(No@48533e64)
+prox: s
+EM NO(s) s(sapato) cont(1) prox(No@1a93a7ca)
+prox: ap
+EM NO(ap) s(sapato) cont(3) prox(No@2b05039f)
+prox: ato
+resp = consumiuTodosOsCaracteresDeProx(true) and proxFolha(true)
+Pesquisar(sapato):true
+
+==================================================== PESQUISAR: ABACAXI
+EM NO( ) s(ABACAXI) cont(0) prox(No@61e717c2)
+prox: ABACA
+EM NO(ABACA) s(ABACAXI) cont(5) prox(No@66cd51c3)
+prox: XI
+resp = consumiuTodosOsCaracteresDeProx(true) and proxFolha(true)
+Pesquisar(ABACAXI):true
+
+==================================================== PESQUISAR: BALA
+EM NO( ) s(BALA) cont(0) prox(No@4dcbadb4)
+prox: B
+EM NO(B) s(BALA) cont(1) prox(No@4e515669)
+prox: ALA
+resp = consumiuTodosOsCaracteresDeProx(true) and proxFolha(true)
+Pesquisar(BALA):true
+
+==================================================== PESQUISAR: BOLO
+EM NO( ) s(BOLO) cont(0) prox(No@4dcbadb4)
+prox: B
+EM NO(B) s(BOLO) cont(1) prox(No@17d10166)
+prox: OLO
+resp = consumiuTodosOsCaracteresDeProx(true) and proxFolha(true)
+Pesquisar(BOLO):true
+
+==================================================== PESQUISAR: ABACATE
+EM NO( ) s(ABACATE) cont(0) prox(No@61e717c2)
+prox: ABACA
+EM NO(ABACA) s(ABACATE) cont(5) prox(No@1b9e1916)
+prox: TE
+resp = consumiuTodosOsCaracteresDeProx(true) and proxFolha(true)
+Pesquisar(ABACATE):true
+
+==================================================== PESQUISAR: galo
+EM NO( ) s(galo) cont(0) prox(No@ba8a1dc)
+prox: ga
+EM NO(ga) s(galo) cont(2) prox(No@4f8e5cde)
+prox: lo
+resp = consumiuTodosOsCaracteresDeProx(true) and proxFolha(true)
+Pesquisar(galo):true
+
+==================================================== PESQUISAR: pata
+EM NO( ) s(pata) cont(0) prox(No@504bae78)
+prox: pat
+EM NO(pat) s(pata) cont(3) prox(No@3b764bce)
+prox: a
+resp = consumiuTodosOsCaracteresDeProx(true) and proxFolha(true)
+Pesquisar(pata):true
+
+==================================================== PESQUISAR: pato
+EM NO( ) s(pato) cont(0) prox(No@504bae78)
+prox: pat
+EM NO(pat) s(pato) cont(3) prox(No@759ebb3d)
+prox: o
+resp = consumiuTodosOsCaracteresDeProx(true) and proxFolha(true)
+Pesquisar(pato):true
+
+==================================================== PESQUISAR: gato
+EM NO( ) s(gato) cont(0) prox(No@ba8a1dc)
+prox: ga
+EM NO(ga) s(gato) cont(2) prox(No@484b61fc)
+prox: to
+resp = consumiuTodosOsCaracteresDeProx(true) and proxFolha(true)
+Pesquisar(gato):true
+
+==================================================== PESQUISAR: ABACA
+EM NO( ) s(ABACA) cont(0) prox(No@61e717c2)
+prox: ABACA
+resp = consumiuTodosOsCaracteresDeProx(true) and proxFolha(false)
+Pesquisar(ABACA):false
+
+==================================================== PESQUISAR: ABACAXIS
+EM NO( ) s(ABACAXIS) cont(0) prox(No@61e717c2)
+prox: ABACA
+EM NO(ABACA) s(ABACAXIS) cont(5) prox(No@66cd51c3)
+prox: XI
+EM NO(XI) s(ABACAXIS) cont(7) prox(null)
+não existe filho para [S]
+Pesquisar(ABACAXIS):false
+
+==================================================== PESQUISAR: gaga
+EM NO( ) s(gaga) cont(0) prox(No@ba8a1dc)
+prox: ga
+EM NO(ga) s(gaga) cont(2) prox(null)
+não existe filho para [g]
+Pesquisar(gaga):false
+
+==================================================== PESQUISAR: ABAC
+EM NO( ) s(ABAC) cont(0) prox(No@61e717c2)
+prox: ABACA
+resp = consumiuTodosOsCaracteresDeProx(false) and proxFolha(false)
+Pesquisar(ABAC):false

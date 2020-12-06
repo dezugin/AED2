@@ -1,0 +1,120 @@
+Q1
+
+public void soma(No i){
+	int soma = somaElementos(No i);
+	System.out.println(soma);
+}
+public int somaElementos(No i){
+	int soma = 0;
+	if(i!=null){
+	soma = i.elemento;
+	soma + = somaElementos(i.esq);
+	soma + = somaElementos(i.dir);	
+	}
+	return soma;
+}
+
+Q2
+
+
+public void pares(No i){
+	int soma = paresElementos(No i);
+	System.out.println(soma);
+}
+public int paresElementos(No i){
+	int soma = 0;
+	if(i!=null){
+	if(i.elemento%2==0){
+		soma = i.elemento;
+	}
+	soma + = paresElementos(i.esq);
+	soma + = paresElementos(i.dir);	
+	}
+	return soma;
+}
+
+Q3
+public boolean iguais(No i, No j){
+	boolean resp = false;
+	if(i!=null){
+	if(i.elemento==j.elemento){
+		resp = true
+	}
+	resp = resp&&iguais(i.esq,j.esq);
+	resp = resp&&iguais(i.dir,j.dir);	
+	}
+	return resp;
+}
+
+
+Q4
+
+public boolean divOnze(No i){
+	boolean resp = false;
+	if(i.elemento&11==0){
+		resp = true
+	}
+	if(resp==false){
+		resp = iguais(i.esq);
+		resp = iguais(i.dir);	
+	}
+	return resp;
+}
+
+Q5:
+
+public No toArvoreBinaria(No raiz, Celula primeiro, Celuladupla primeiro1){
+	int x = primeiro.elemento; 
+	No raiz = inserir(x,raiz);
+	x = primeiro1.elemento;
+	raiz = inserir(x,raiz);
+	raiz = toArvoreBinaria(raiz, primeiro.prox,primeiro1.prox);
+	return raiz;
+}
+private No inserir(int x, No x){
+	if(i==null){
+		i = new No(x);
+	}else if( x< i.elemento){
+		i.esq = inserir(x,i.esq);
+	}else if(x>elemento){
+		i.dir = inserir(x,i.dir);
+	}
+	return i;
+}
+
+Q6:
+
+void inserir(int x, No* i){
+	if(i==NULL){
+		i = novoNo(x);
+	}else if(x<i.elemento){
+		inserir(x,i->esq);
+	}else if(x>i.elemento){
+		inserir(x,i->dir);
+	}
+}
+
+Q7:
+
+void remover(int x, No* I){
+	if(i==NULL){
+		exit(0);
+	}else if(i<i.elemento){
+		remover(x,i->esq);
+	}else if(i>i.elemento){
+		remover(x, i->dir);
+	}else if(i.dir==null){
+		i = i->esq;
+	}else if(i.esq==null){
+		i = i->dir;
+	}else{
+		i->esq = anterior(i,i->esq);
+	}
+}
+struct No anterior(No* i, No* j){
+	if(j->dir!=NULL){
+		j->dir = anterior(i,j->dir);
+	}else{
+		i->elemento = j->elemento;
+		j = j->esq;
+}

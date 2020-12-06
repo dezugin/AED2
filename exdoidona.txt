@@ -1,0 +1,5 @@
+dada a pagina 77 implemente um metodo para mostrar todos os elementos cadastrados em nossa estrutura
+
+na pagina 77 suponha a existencia das classes lista e arvore e retorne o numero de elementos pares contidos em nossa estrutura doidona
+repita o anterior retornando true quando nossa tad tem um elemento divisivel por 11k
+repita os dois exercicios anteriores sem usar as classes lista e arvore

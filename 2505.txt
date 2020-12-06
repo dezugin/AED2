@@ -1,0 +1,15 @@
+sempre que inserirmos um no esse tera cor preta, pis ele sera gemeo do seu pai
+a cor preta indica uma tendencia de insercao
+
+mostre a implementacao do metodo boolean istopoquatro(no i)
+
+
+
+no inserir da an quando chegamos em um no a primeira coisa a ser efetuada eh verificar se o no eh do tipo 4. Se verdadero vamos fragmentar o no inverter a cor do no de seus filhos e em seguida verificar se o pai tem a cor preta se verdadeiro vamos rotacionar o avo nesse caso o tipo de rotacao depende do alinhamento entre o no, o pai e o avo.
+
+apos a insercao de uma folha, cor preta, verificamos se o pai tb tem cor preta se verdadeiro rotacionamos o avo
+
+a raiz sempre tera a cor branca, ou seja no final do inserir faremos raiz.cor = false
+
+obs 6 apos uma rotacao o no central tera cor branca e seus filhos preta
+

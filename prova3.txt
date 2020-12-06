@@ -1,0 +1,42 @@
+	public void inserir(Personagem x) throws Exception {
+		inserir(x,raiz,0);
+	}
+	public void inserir(Personagem s, No no, int i) throws Exception{
+		if(no.prox[s.getNome().charAt(i)]==null){
+			no.prox[s.getNome().charAt(i)]=inserirArvoreBinaria(s,no.raiz);
+			if(i==s.getNome().length()-1){
+				no.prox[s.getNome().charAt(i)].folha = true;
+			}else{
+				inserir(s,no.prox[s.getNome().charAt(i)],i+1);
+			}
+		} else if (no.prox[s.charAt(i)].folha == false && i< s.length()-1){
+			inserir(s,no.prox[s.getNome().charAt(i)],i+1);
+		} else { 
+			throw new Exception ("Erro!");
+		}
+	}
+	private No inserirArvoreBinaria(Personagem x, No i) throws Exception{
+		if(i==null){
+		i = new No(x);
+		} else if (x.getNome().compareTo(i.elemento.getNome())<0){
+			i.esq = inserirArvoreBinaria(x,i.esq);
+		} else if (x.getNome().compareTo(i.elemento.getNome())>0){
+			i.dir = inserirArvoreBinaria(x,i.dir);
+		} else { 
+			throw new Exception ("Erro!");
+		}
+		return i;
+	}
+
+
+O melhor caso é O(1), com uma comparação na árvore trie e uma na árvore binária.
+
+O pior caso é O(3d) onde d é o numero de caracteres da string inserida, multiplicado por duas comparações na árvore trie e outra na binária. Caso o prefixo já exista na árvore o tempo de inserção será menor.
+
+Explicacao
+
+A arvore recebe umo objeto personagem, um no (inicialmente raiz), e um contador, verifica eh null o valor inteiro do numero alocado ao objeto prox, correspondente a tabela ascii do char posicionado no numero 
+do contador, da string correspondente ao atributo nome do objeto personagem, se for ele insere o objeto personagem na arvore binaria. Ele checa se o contador eh igual o comprimento do atributo nome do objeto -1,
+se for o objeto prox anteriormente mencionado se torna uma folha, se nao for igual ao length se chama uma recursao onde se insere o objeto, o atributo prox do no, o char do atributo nome no numero do contador
+e o contador incrementado a 1. Se o objeto prox mencionado no inicio nao for null, se chama uma recursao onde se insere o objeto, o atributo prox do no, o char do atributo nome no numero do contador
+e o contador incrementado a 1.

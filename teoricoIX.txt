@@ -1,0 +1,95 @@
+1. O método remover privado e recursivo apresentado em nossa árvore recebe um valor e retorna
+um No. No exercı́cio anterior da aula de hoje 06/05, o remover2 retorna void. Implemente um
+método remover3 que retorna o elemento removido?
+public int remover2(int x) throws Exception {
+	int resp = 0;
+      if (raiz == null) {
+         throw new Exception("Erro ao remover2!");
+      } else if(x < raiz.elemento){
+         resp = remover2(x, raiz.esq, raiz);
+      } else if (x > raiz.elemento){
+         resp = remover2(x, raiz.dir, raiz);
+      } else if (raiz.dir == null) {
+         raiz = raiz.esq;
+      } else if (raiz.esq == null) {
+         raiz = raiz.dir;
+      } else {
+         raiz.esq = antecessor(raiz, raiz.esq);
+      }
+	return resp;
+   }
+
+	private int remover2(int x, No i, No pai) throws Exception {
+		resp = 0;
+		if (i == null) {
+         throw new Exception("Erro ao remover2!");
+      } else if (x < i.elemento) {
+         resp = remover2(x, i.esq, i);
+      } else if (x > i.elemento) {
+         resp = remover2(x, i.dir, i);
+      } else if (i.dir == null) {
+         if(x < pai.elemento){
+            pai.esq = i.esq;
+         } else {
+            pai.dir = i.esq;
+         }
+      } else if (i.esq == null) {
+         if(x < pai.elemento){
+            pai.esq = i.dir;
+         } else {
+            pai.dir = i.dir;
+         }
+      } else {
+         i.esq = antecessor(i, i.esq);
+		}
+	}
+	return resp;
+}
+
+2. Um algoritmo de ordenação é o TreeSort que insere os elementos do array em uma árvore binária
+e utiliza um ”mostrar”para ordenar os elementos do array. Implemente o TreeSort e faça a análise
+de complexidade do mesmo?
+
+struct No{
+	int elemento;
+	struct No *esq, *dir;
+};
+struct No *novoNo(int elemento){
+	struct No *temp = new No;
+	temp->elemento = elemento;
+	temp->esq = temp->dir = NULL;
+	return temp;
+};
+No* inserir(No* noz, int elemento){
+	if(no==NULL){
+		return novoNo(elemento);
+	}else if(elemento<noz->elemento){
+		No->esq = inserir(No->esq,elemento);
+	}else if(elemento>no->elemento){
+		No->dir = inserir(No->dir,elemento);
+	}
+	return noz;
+}
+void mostrar(No* i){
+	mostrar(i->esq);
+	printf(i->elemento);
+	mostrar(i->dir
+}
+void treeSort(int array[], int n){
+	struct No *raiz = NULL;
+	raiz = inserir(raiz,array[0];
+	for(int i =1;1<n;i++){
+		raiz = inserir(raiz,array[i];
+	}
+	mostrar(raiz);
+
+}
+int main(){
+	int array[] = (1,2,3,4,99);
+	int n = sizeof(array)/sizeof(array[0]);
+	treeSort(array,n);
+	return 0;
+} 
+
+Analise de complexidade: mostrar = n, inserir = n no melhor caso, 2n no pior caso
+complexidade = O(N)
